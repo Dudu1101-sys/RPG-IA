@@ -16,15 +16,15 @@ def cadastrar_personagem():
 
 def buscar_personagem():
     termo = str(input('Digite o nome ou a classe do personagem para fazer a busca: ')).lower()
-    encontrado = []
+    cadastrado = []
     for personagens in personagem:
         if (termo in personagens['nome'].lower()) or (termo in personagens['classe'].lower()):
             encontrado.append(personagens)
 
-    if len(encontrado) == 0:
+    if len(cadastrado) == 0:
         print('😣 Nenhum personagem cadastrado 😣\n')
         return
-    print(encontrado)
+    print(cadastrado)
 
 def tabela_personagem():
     if len(personagem) == 0:
