@@ -3,7 +3,7 @@ personagem = []
 def cadastrar_personagem():
     nome = str(input('Digite o nome do personagem: '))
     nivel = int(input('Digite o nível do personagem: '))
-    habilidade = str(input('Qual será a habilidade o personagem: '))
+    habilidade = str(input('Qual será a habilidade do personagem: '))
     classe = str(input('Qual será a classe do personagem: '))
 
     personagens = {'nome': nome,
