@@ -19,7 +19,7 @@ def buscar_personagem():
     cadastrado = []
     for personagens in personagem:
         if (termo in personagens['nome'].lower()) or (termo in personagens['classe'].lower()):
-            encontrado.append(personagens)
+            cadastrado.append(personagens)
 
     if len(cadastrado) == 0:
         print('😣 Nenhum personagem cadastrado 😣\n')
