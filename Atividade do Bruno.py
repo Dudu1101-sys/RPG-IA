@@ -89,3 +89,5 @@ def menu_sistema():
             break
         else:
             print('⚠️ Opção inválida! Tente novamente!')
+
+menu_sistema()
