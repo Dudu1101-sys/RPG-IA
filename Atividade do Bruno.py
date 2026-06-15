@@ -48,8 +48,8 @@ def editar_personagem():
         if numero <= len(personagem):
             novo_nivel = int(input('Digite o novo nível do personagem: '))
             nova_habilidade = str(input('Digite a nova habilidade do personagem: '))
-            personagem[indice]['Nível'] = novo_nivel
-            personagem[indice]['Habilidade'] = nova_habilidade
+            personagem[indice]['nivel'] = novo_nivel
+            personagem[indice]['habilidade'] = nova_habilidade
             print('✅Personagem editado com sucesso! ✅ \n')
 
 def excluir_personagem():
